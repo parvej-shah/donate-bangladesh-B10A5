@@ -132,8 +132,3 @@
     </section>
   </main>
 
-<!-- toggle buttons -->
-    <div class="flex justify-center gap-4 md:pb-8 pb-6 pt-10 md:pt-20">
-      <button id="donation-toggle-btn" class="py-4 px-8 text-primary-text bg-primary-bg rounded-lg font-semibold text-xl">Donation</button>
-      <button id="history-toggle-btn" class="py-4 px-8 text-primary-text/70 border border-primary-text/30 rounded-lg font-semibold text-xl">History</button>
-    </div>
