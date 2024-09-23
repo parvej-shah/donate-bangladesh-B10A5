@@ -32,12 +32,9 @@ function setInnerTextById(id,value){
     document.getElementById(id).innerText = value;
 }
 function inputValidation(element){
-    let value = Number(element.value);
+    const value = Number(element.value);
     const mainBalance = Number(getInnerTextById('main-balance'));
-    if(mainBalance>=0 && mainBalance>=value && value!=''){
-        return true;
-    }
-    else{
+    if(mainBalance<0 || mainBalance<value || value===''||value<=0){
         if(mainBalance<value){
             alert("You dont have enough balance")
         }
@@ -45,6 +42,9 @@ function inputValidation(element){
             alert('Your Input is not Valid')
         }
         return false;
+    }
+    else{
+        return true;
     }
 }
 function calculateAndUpdate(element){
@@ -77,8 +77,8 @@ function calculateAndUpdate(element){
     )
     p.innerText = `Date: ${new Date}`
     newDiv.appendChild(p);
-    console.log(historyContainer.children)
     historyContainer.insertBefore(newDiv,historyContainer.children[0])
+    my_modal_1.showModal()
     }else{
         alert("Your Balance is less Than your Donation")
     }
