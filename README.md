@@ -38,11 +38,11 @@
     - A meaningful notification will be added to the History section.
 - **Input Validation**:
   - Show an alert if invalid data is found and stop the transaction.✅
-  - Validate the donation amount:
+  - Validate the donation amount:✅
     - If the donation amount is greater than the account balance.✅
     - If the input field contains an invalid number.✅
     - If the input field is empty.✅
-- **History Section**:
+- **History Section**:✅
   - The history section will display transaction notifications, including:
     - Date and time of the transaction.
     - Donation amount.
