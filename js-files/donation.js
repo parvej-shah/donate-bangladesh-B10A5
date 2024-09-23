@@ -20,3 +20,7 @@ for(const button of donateButtons){
         
     })
 }
+
+document.getElementById('blog-btn').addEventListener('click',()=>{
+    location.href = './blog.html'
+})
