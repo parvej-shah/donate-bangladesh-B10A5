@@ -1,16 +1,9 @@
-# Welcome to Assignment 5
+# Welcome My New Project
 
 ## <img width=30px src="assets/logo.png"/> DONATE BANGLADESH
 
-## Key Rule
 
-- Do not ask about mark distribution in the group, as it will not be provided.
-- Do not post assignment feedback after receiving it. If you encounter issues or have complaints, please join a support session for discussion.
-- Avoid using "lorem ipsum" text. Use relevant and meaningful content instead.
-- Feel free to modify the color or design, but ensure the design is visually appealing and professional.
-- You are **not allowed** to use any JavaScript library or framework for this assignment.
-
-## Design
+## Design I Used
 
 - **Navbar**: Create a visually appealing navbar with the following structure:✅
   - Logo positioned in the middle.
@@ -26,7 +19,7 @@
   - Button for submitting the donation.
 - **History Section**: Initially hidden and empty.✅
 
-## Functionalities
+## Functionalities I maintained
 
 - **Donation and History Button Functionality**✅
   - Clicking the "History" button will hide the donation data and display the history.
@@ -48,7 +41,7 @@
     - Donation amount.
     - Donation name.
 
-## Challenges✅
+## Some New  Challenges I faced✅
 
 - **Sticky Navbar**: Make the navbar sticky to the top of the page.✅
 - **Blog Page**: Create a `blog.html` file and link it to the main page:✅
